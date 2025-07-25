@@ -31,12 +31,43 @@
   color: #E95A08;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 16px 230px 40px 230px;
+}
+
+.btn-primary {
+  background-color: #FD6E0A;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 10px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #de7b34;
+}
+
 /* nav styles */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 120px;
+  margin: 0px 150px;
   padding: 20px 10px;
 }
 
@@ -70,9 +101,7 @@ span img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 170px 150px;
-  /* padding: 20px; */
-  gap: 50px;
+  margin: 120px 150px 80px 150px;
 }
 
 .banner-greeting,
@@ -85,8 +114,42 @@ span img {
   font-size: 20px;
   font-weight: 400;
   margin-top: 30px;
+  text-align: justify;
+  width: 500px;
+  height: 108px;
 }
 
 .banner-profile {
   vertical-align: middle;
+}
+
+main {
+  margin: 120px 150px 80px 150px;
+}
+
+
+/* plant styles */
+.plant-content {
+  align-items: center;
+}
+
+.plant-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plant-title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.plant-description {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
 }
