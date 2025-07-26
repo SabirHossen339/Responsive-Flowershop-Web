@@ -56,6 +56,16 @@
   border: none;
 }
 
+.btn-secondary {
+  background-color: #FD6E0A;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 10px 10px;
+  /* width: 100%; */
+  border: none;
+}
+
 button:hover {
   cursor: pointer;
   background-color: #de7b34;
@@ -122,9 +132,9 @@ span img {
   vertical-align: middle;
 }
 
-main {
+/* main {
   margin: 120px 150px 80px 150px;
-}
+} */
 
 main section {
   margin-top: 130px;
@@ -142,6 +152,7 @@ main section {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  margin: 30px 150px 80px 150px;
 }
 
 
@@ -237,7 +248,7 @@ main section {
 }
 
 .shop-1 {
-  border: 2px solid;
+  /* border: 2px solid; */
   border-radius: 15px;
   width: 366px;
   height: 206px;
@@ -250,6 +261,7 @@ main section {
   font-size: 1.25rem;
   color: #ffffff;
   background-image: url(../Images/deal-bloom.png);
+  filter: brightness(80%);
   background-size: cover;
 }
 
@@ -260,7 +272,7 @@ main section {
 }
 
 .shop-2 {
-  border: 2px solid;
+  /* border: 2px solid; */
   border-radius: 15px;
   width: 366px;
   height: 206px;
@@ -273,6 +285,7 @@ main section {
   font-size: 1.25rem;
   color: #ffffff;
   background-image: url(../Images/deal-ana.png);
+  filter: brightness(80%);
   background-size: cover;
 }
 
@@ -283,7 +296,7 @@ main section {
 }
 
 .shop-3 {
-  border: 2px solid;
+  /* border: 2px solid white; */
   border-radius: 15px;
   width: 753px;
   height: 425px;
@@ -295,6 +308,7 @@ main section {
   font-size: 2.50rem;
   color: #ffffff;
   background-image: url(../Images/deal-zabo.png);
+  filter: brightness(80%);
   background-size: cover;
 }
 
@@ -302,4 +316,28 @@ main section {
   color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 400px;
+}
+
+/* subscribe styles */
+.subscribe-section {
+  width: 100%;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Images/news-letter-bg.png);
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.subscribe-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
 }
