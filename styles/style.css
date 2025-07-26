@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #f7f9ff;
+}
+
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -340,4 +344,31 @@ main section {
 
 .subscribe-form {
   display: flex;
+}
+
+/* footer styles */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px 50px 100px;
+}
+
+.footer-text {
+  width: 350px;
+  height: 80px;
+  font-size: 1.5rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  vertical-align: middle;
 }
